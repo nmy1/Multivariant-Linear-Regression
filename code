@@ -6,7 +6,7 @@ using namespace std;
 double x[MAX][MAX];
 double y[MAX];
 int n, m;
-double alpha = 0.01; //learn rating
+double alpha; //learning rate
 double O[MAX], Otemp[MAX];
 double d[MAX];
 double oldO[MAX];
@@ -29,6 +29,7 @@ void input()
     {
         in >> y[i];
     }
+    in >> alpha;
     in.close();
 }
 
