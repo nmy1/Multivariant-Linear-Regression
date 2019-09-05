@@ -14,3 +14,5 @@ example of LGdata.txt:
 9 5 1
 
 10 20 30    //data for dependent variable
+
+0.01        //learning rate
